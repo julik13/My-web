@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     margin: 0 auto;
 }
 .page1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../diy/img/1.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./img/1.jpg");
     background-repeat: no-repeat;         
     background-attachment: fixed; 
     background-position: top;     
@@ -512,7 +512,20 @@ img.photo5{
   content: '';
   display: none;
 }
-
+.footer-down div:after{
+  content: '';
+  border: 0.5px solid #fff;
+  width: 52px;
+  margin-top: 8px;
+  margin-left: 300px;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.footer-down div{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
